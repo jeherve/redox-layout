@@ -1,9 +1,5 @@
 # A Colemak keymap for the Redox keyboard
 
-[![License](https://poser.pugx.org/jeherve/redox-layout/license.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Powered by QMK](https://qmk.fm/assets/images/badge-small-light.svg)](https://qmk.fm/)
-
-
 ----
 ![jeherve-redox-keymap-1](https://user-images.githubusercontent.com/426388/43962354-c4edd804-9cb7-11e8-887a-5b5e9582f688.jpg)
 ----
