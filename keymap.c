@@ -130,9 +130,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|            |------+------+------+------+------+------+------|
  * | Tab  |   Q  |   W  |   F  |   P  |   G  |  (   |            |   )  |   J  |   L  |   U  |   Y  |   ;  |   \  |
  * |------+------+------+------+------+------+------|            |------+------+------+------+------+------+------|
- * | Lay1 |   A  |   R  |   S  |   T  |   D  | Lay1 |            | Lay1 |   H  |   N  |   E  |   I  |   O  |'/Lay1|
+ * | Lay1 |   A  |   R  |   S  |   T  |   D  | Lay2 |            | Lay2 |   H  |   N  |   E  |   I  |   O  |'/Lay1|
  * |------+------+------+------+------+------+------|            |------+------+------+------+------+------+------|
- * | Shift|   Z  |   X  |   C  |   V  |   B  | Lay2 |            | Lay2 |   K  |   M  |   ,  |   .  |   /  |Shift |
+ * | Shift|   Z  |   X  |   C  |   V  |   B  | Lay1 |            | Lay1 |   K  |   M  |   ,  |   .  |   /  |Shift |
  * |------+------+------+------+------+------+------|            |------+------+------+------+------+------+------|
  * | Lay3 | Ctrl | Hyper|  Alt | Cmd  |Bcksp | Ctrl |            |Enter |Space | Cmd  | Lay4 | Hyper| Ctrl | Lay3 |
  * `------------------------------------------------'            `------------------------------------------------'
@@ -143,9 +143,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|                                                         |----+----+----+----+----+----+----|
 	 KC_TAB     , KC_Q  , KC_W  , KC_F  , KC_P  , KC_G  , M_BRACKET_LEFT,               M_BRACKET_RIGHT , KC_J  , KC_L  ,   KC_U  , KC_Y   , KC_SCLN , KC_BSLS,
   //|----+----+----+----+----+----+----|                                                         |----+----+----+----+----+----+----|
-	 MO(_SYMB)  , KC_A  , KC_R  , KC_S  , KC_T  , KC_D  ,TT(_SYMB),                        TT(_SYMB)    , KC_H  , KC_N  ,   KC_E  , KC_I   , KC_O    , LT(_SYMB,KC_QUOT),
+	 MO(_SYMB)  , KC_A  , KC_R  , KC_S  , KC_T  , KC_D  ,TT(_NAV),                        TT(_NAV)    , KC_H  , KC_N  ,   KC_E  , KC_I   , KC_O    , LT(_SYMB,KC_QUOT),
   //|----+----+----+----+----+----+----|                                                         |----+----+----+----+----+----+----|
-	 KC_LSFT    , KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,TT(_NAV),                         TT(_NAV)     , KC_K  , KC_M  , KC_COMM , KC_DOT , KC_SLSH , KC_RSFT,
+	 KC_LSFT    , KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,TT(_SYMB),                       TT(_SYMB)   , KC_K  , KC_M  , KC_COMM , KC_DOT , KC_SLSH , KC_RSFT,
   //|----+----+----+----+----+----+----|                                                         |----+----+----+----+----+----+----|
 	 MO(_INTER),KC_LCTL,KC_HYPR,KC_LALT,   KC_LCMD,   KC_BSPC,KC_LCTL,               KC_ENT,KC_SPC     ,    KC_RCMD    , TT(_ADJUST),KC_HYPR,KC_RCTL,MO(_INTER)
   //`----+----+----+----+----+----+----'                                                         `----+----+----+----+----+----+----'
