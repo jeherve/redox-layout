@@ -191,7 +191,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 	XXXXXXX, XXXXXXX, KC_VOLD, KC_VOLU, KC_MUTE, XXXXXXX, _______,                            _______, XXXXXXX, KC_LEFT, KC_DOWN, KC_UP  , KC_RIGHT, XXXXXXX,
 	XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-	_______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______
+	_______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, _______
   ),
 
 /* i18n + emoji
@@ -212,7 +212,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	XXXXXXX, UC(0x00E0), XXXXXXX, XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, XXXXXXX, UC(0x00FC), UC(0x00E8), YOSHI, UC(0x00F6), XXXXXXX,
 	_______, UC(0x00E1), XXXXXXX, SHRUG     , THUMB_UP, XXXXXXX, _______,                            _______, XXXXXXX, UC(0x00F9), UC(0x00E9), UC(0x00ED)  , UC(0x00F3), _______,
 	XXXXXXX, UC(0x00E2), XXXXXXX, UC(0x00E7), XXXXXXX , XXXXXXX, _______,                            _______, XXXXXXX, UC(0x0171), UC(0x00EA), XXXXXXX, UC(0x0151), XXXXXXX,
-	_______, XXXXXXX   , XXXXXXX, XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, NBSP, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______
+	_______, XXXXXXX   , XXXXXXX, XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, NBSP, XXXXXXX, _______, XXXXXXX, XXXXXXX, _______
   ),
 
 /* Adjust keyboard settings
@@ -233,7 +233,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                            XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 	_______, XXXXXXX, RGB_VAD, RGB_VAI, RGB_TOG, XXXXXXX, _______,                            _______, XXXXXXX, RESET  , DEBUG  , AU_TOG , XXXXXXX, _______,
 	XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-	_______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______
+	_______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,                            _______, XXXXXXX, XXXXXXX, _______, XXXXXXX, XXXXXXX, _______
   )
 
 };
