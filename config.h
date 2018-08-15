@@ -25,8 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Change the default tapping toggle value (normally 5) */
 #define TAPPING_TOGGLE 2
 
-// #define USE_SERIAL
-#define USE_I2C
+#define USE_SERIAL
+//#define USE_I2C
 
 /* Select hand configuration */
 
