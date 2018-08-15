@@ -1,7 +1,7 @@
 # A Colemak keymap for the Redox keyboard
 
 ----
-![jeherve-redox-layout-2](https://user-images.githubusercontent.com/426388/44148042-ea49ac3a-a096-11e8-828e-8533fa75d569.jpg)
+![jeherve-redox-layout-3](https://user-images.githubusercontent.com/426388/44148407-90d06aac-a098-11e8-9c79-5ae478d2f45e.jpg)
 
 ----
 
