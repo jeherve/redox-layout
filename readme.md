@@ -1,7 +1,8 @@
 # A Colemak keymap for the Redox keyboard
 
 ----
-![jeherve-redox-keymap-1](https://user-images.githubusercontent.com/426388/43962354-c4edd804-9cb7-11e8-887a-5b5e9582f688.jpg)
+![jeherve-redox-layout-2](https://user-images.githubusercontent.com/426388/44148042-ea49ac3a-a096-11e8-828e-8533fa75d569.jpg)
+
 ----
 
 This keymap is **a work in progress**, and is meant to be used on Mac OS, with the "Unicode Hex Input" keyboard input.
