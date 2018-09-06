@@ -66,6 +66,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 			}
 			return false;
 			break;
+		case WAVE:
+			if (record->event.pressed) {
+				SEND_STRING(SS_LALT("D83D+DC4B"));
+			}
+			return false;
+			break;
 		case NBSP:
 			if (record->event.pressed) {
 				SEND_STRING("&nbsp;");
@@ -198,7 +204,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 * ,------------------------------------------------.      ,------------------------------------------------.
 * |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
-* |      |  à   |      |      |      |      |      |      |      |      |  ü   |  è   | YOSHI|   ö  |      |
+* |      |  à   | 👋   |      |      |      |      |      |      |      |  ü   |  è   | YOSHI|   ö  |      |
 * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
 * |      |  á   |      |SHRUG |  👍  |      |      |      |      |      |   ú  |   é  |   í  |   ó  |      |
 * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
@@ -209,7 +215,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 */
   [_INTER] = LAYOUT(
 	XXXXXXX, _______   , _______, _______   , _______ , _______, _______,                            _______, _______, _______, _______, _______, _______, _______,
-	XXXXXXX, UC(0x00E0), XXXXXXX, XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, XXXXXXX, UC(0x00FC), UC(0x00E8), YOSHI, UC(0x00F6), XXXXXXX,
+	XXXXXXX, UC(0x00E0), WAVE   , XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, XXXXXXX, UC(0x00FC), UC(0x00E8), YOSHI, UC(0x00F6), XXXXXXX,
 	_______, UC(0x00E1), XXXXXXX, SHRUG     , THUMB_UP, XXXXXXX, _______,                            _______, XXXXXXX, UC(0x00F9), UC(0x00E9), UC(0x00ED)  , UC(0x00F3), _______,
 	XXXXXXX, UC(0x00E2), XXXXXXX, UC(0x00E7), XXXXXXX , XXXXXXX, _______,                            _______, XXXXXXX, UC(0x0171), UC(0x00EA), XXXXXXX, UC(0x0151), XXXXXXX,
 	_______, XXXXXXX   , XXXXXXX, XXXXXXX   , XXXXXXX , XXXXXXX, _______,                            _______, NBSP, XXXXXXX, _______, XXXXXXX, XXXXXXX, _______
