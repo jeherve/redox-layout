@@ -1,13 +1,13 @@
 # A Colemak keymap for the Redox keyboard
 
 ----
-![jeherve-redox-layout-3](https://user-images.githubusercontent.com/426388/44148407-90d06aac-a098-11e8-9c79-5ae478d2f45e.jpg)
+![jeherve-redox-layout-3](https://user-images.githubusercontent.com/426388/45171716-69888200-b203-11e8-822d-7bc91f9f6c07.jpg)
 
 ----
 
 This keymap is **a work in progress**, and is meant to be used on Mac OS, with the "Unicode Hex Input" keyboard input.
 
-![Mac OS keyboard input setting](https://user-images.githubusercontent.com/426388/45171716-69888200-b203-11e8-822d-7bc91f9f6c07.jpg)
+![Mac OS keyboard input setting](https://user-images.githubusercontent.com/426388/43962498-1ee9e3fc-9cb8-11e8-88e3-dbb068ec5c67.png)
 
 I may change a lot of the keys over the next few months, and will update this repo when I do so.
 
