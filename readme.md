@@ -7,7 +7,7 @@
 
 This keymap is **a work in progress**, and is meant to be used on Mac OS, with the "Unicode Hex Input" keyboard input.
 
-![Mac OS keyboard input setting](https://user-images.githubusercontent.com/426388/43962498-1ee9e3fc-9cb8-11e8-88e3-dbb068ec5c67.png)
+![Mac OS keyboard input setting](https://user-images.githubusercontent.com/426388/45171716-69888200-b203-11e8-822d-7bc91f9f6c07.jpg)
 
 I may change a lot of the keys over the next few months, and will update this repo when I do so.
 
